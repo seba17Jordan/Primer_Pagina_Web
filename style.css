@@ -59,8 +59,25 @@ footer {
 .imagen-fade { /*clase para efecto fade */
     width: 300px;
     height: 200px;
-    background-color: #ddd; /*un color de fondo temporal*/
+    /*background-color: #ddd; un color de fondo temporal*/
     margin-bottom: 20px;
     opacity: 0; /* establece la opacidad inicial en 0 */
     transition: opacity 0.8s; /* transición de opacidad */
+}
+
+.imagen-slide-fade {
+    width: 300px; /*Tamaño del contenedor*/
+    height: 200px;
+    /*background-color: #ddd; Color de fondo temporal para el fade */
+    overflow: hidden; /* Asegura que el contenido no se desborde del contenedor */
+    opacity: 0; /* Establece la opacidad inicial en 0 para el efecto fade */
+    transition: opacity 0.8s, transform 0.8s; /* Agrega una transición de opacidad y transformación */
+}
+
+.derecha { /*para alinear texto a la derecha */
+    text-align: right;
+}
+
+.izquierda { /*para alinear texto a la izquierda */
+    text-align: left;
 }
