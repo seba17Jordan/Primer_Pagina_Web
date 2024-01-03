@@ -28,6 +28,13 @@ nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    transition: color 0.3s, background-color 0.3s; /* Agrega un cambio de color al pasar mouse */
+    padding: 10px 15px; /* espacio extra para mejorar la experiencia de lo de arriba*/
+}
+
+nav a:hover {
+    color: #ccc; /* Para que el menu se sombree con el mouse */
+    background-color: #555;
 }
 
 main {
@@ -42,4 +49,9 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.imagen-ajustada {
+    width: 300px;
+    height: auto;
 }
