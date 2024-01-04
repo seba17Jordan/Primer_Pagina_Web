@@ -65,7 +65,7 @@ footer {
     transition: opacity 0.8s; /* transición de opacidad */
 }
 
-.imagen-slide-fade {
+.imagen-slide-fade-right {
     width: 300px; /*Tamaño del contenedor*/
     height: 200px;
     /*background-color: #ddd; Color de fondo temporal para el fade */
@@ -75,11 +75,12 @@ footer {
 }
 
 .derecha { /*para alinear texto a la derecha */
-    text-align: right;
+    text-align: center;
+    padding-left: 50%;
 }
 
 .izquierda { /*para alinear texto a la izquierda */
-    text-align: left;
+    text-align: center;
     padding-right: 50%;
     
 }
