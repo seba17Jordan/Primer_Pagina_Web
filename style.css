@@ -63,9 +63,19 @@ footer {
     margin-bottom: 20px;
     opacity: 0; /* establece la opacidad inicial en 0 */
     transition: opacity 0.8s; /* transición de opacidad */
+    padding-left: 25%;
 }
 
 .imagen-slide-fade-right {
+    width: 300px; /*Tamaño del contenedor*/
+    height: 200px;
+    /*background-color: #ddd; Color de fondo temporal para el fade */
+    overflow: hidden; /* Asegura que el contenido no se desborde del contenedor */
+    opacity: 0; /* Establece la opacidad inicial en 0 para el efecto fade */
+    transition: opacity 0.8s, transform 0.8s; /* Agrega una transición de opacidad y transformación */
+}
+
+.imagen-slide-fade-left {
     width: 300px; /*Tamaño del contenedor*/
     height: 200px;
     /*background-color: #ddd; Color de fondo temporal para el fade */
