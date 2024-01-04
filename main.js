@@ -43,10 +43,10 @@ function fadeInSlideOnScroll() { //Función para efecto fade con desplazamiento 
         elementsToShow.forEach(function (element) {
             if (isElementInViewport(element)) {
                 element.style.opacity = "1";
-                element.style.transform = "translateX(0)";
+                element.style.transform = "translateX(300%)";
             } else {
                 element.style.opacity = "0";
-                element.style.transform = "translateX(100%)";
+                element.style.transform = "translateX(0)";
             }
         });
     }

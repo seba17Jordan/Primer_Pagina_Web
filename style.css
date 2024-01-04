@@ -80,4 +80,12 @@ footer {
 
 .izquierda { /*para alinear texto a la izquierda */
     text-align: left;
+    padding-right: 50%;
+    
+}
+
+.centro { /*para alinear texto al centro */
+    margin: 0 auto; /* Centra el contenido del div horizontalmente */
+    max-width: 600px; /* O ajusta el ancho máximo según tus necesidades */
+    text-align: center;
 }
