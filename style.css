@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #fff;
 }
 
 header {
@@ -98,5 +99,11 @@ footer {
 .centro { /*para alinear texto al centro */
     margin: 0 auto; /* Centra el contenido del div horizontalmente */
     max-width: 600px; /* O ajusta el ancho máximo según tus necesidades */
+    text-align: center;
+}
+
+.centro-ancho { /*para alinear texto al centro */
+    margin: 0 auto; /* Centra el contenido del div horizontalmente */
+    max-width: 1000px; /* O ajusta el ancho máximo según tus necesidades */
     text-align: center;
 }
