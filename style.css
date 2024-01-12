@@ -1,14 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: roboto;
+    font-size: 125%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #D6EAF8;
+    background-color: white;
 }
 
 header {
-    background-color: black;
-    color: #fff;
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 1em;
 }
@@ -27,7 +28,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: black;
     font-weight: bold;
     transition: color 0.3s, background-color 0.3s; /* Agrega un cambio de color al pasar mouse */
     padding: 10px 15px; /* espacio extra para mejorar la experiencia de lo de arriba*/
@@ -38,7 +39,7 @@ nav a:hover {
     background-color: #555;
 }
 
-main {
+main { /*podria agregar un main que agarre todo lo de despues del encabezado para que quede tipo periodico*/
     padding: 20px;
 }
 
@@ -54,6 +55,11 @@ footer {
 
 .imagen-ajustada {
     width: 300px;
+    height: auto;
+}
+
+.imagen-ajustada1 {
+    width: 200px;
     height: auto;
 }
 
@@ -88,20 +94,25 @@ footer {
 .derecha { /*para alinear texto a la derecha */
     text-align: center;
     padding-left: 50%;
-    background-color: bisque;
+    height: 45vh;
 }
 
 .izquierda { /*para alinear texto a la izquierda */
     text-align: center;
     padding-right: 50%;
-    background-color: bisque;
-    
+    height: 40vh; /*si disminuyo esto puedo hacer que los div queden uno al lado del otro*/
+    padding-top: 25px;
+}
+
+.fondoLiso {
+    background-color: #bab7b1;
 }
 
 .centro { /*para alinear texto al centro */
     margin: 0 auto; /* Centra el contenido del div horizontalmente */
     max-width: 600px; /* O ajusta el ancho máximo según tus necesidades */
     text-align: center;
+    background-color: #bab7b1;
 }
 
 .centro-ancho { /*para alinear texto al centro */
@@ -111,17 +122,17 @@ footer {
 }
 
 #banner {
-    background-image: url('fondoMinimalista.jpg'); /* Ruta de la imagen de fondo */
+    background-image: url('fondoMinimalista2.jpg'); /* Ruta de la imagen de fondo */
     background-size: cover; /* Cubrir todo el tamaño del contenedor */
     background-position: center; /* Centrar la imagen */
-    height: 70vh; /* 100% de la altura de la ventana gráfica (viewport) */
+    height: 80vh; /* 100% de la altura de la ventana gráfica (viewport) */
     display: flex;
     flex-direction: column; /* Sirve por si quiero agregar más texto al banner */
     justify-content: center; /* Centrar el contenido horizontalmente */
     align-items: center; /* Centrar el contenido verticalmente */
-    color: black; /* Color del texto en el banner */
+    color: white; /* Color del texto en el banner */
     font-size: 300%; /* Tamaño del texto */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: roboto;
 }
 
 #banner h1, #banner h3 {
