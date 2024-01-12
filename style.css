@@ -107,3 +107,16 @@ footer {
     max-width: 1000px; /* O ajusta el ancho máximo según tus necesidades */
     text-align: center;
 }
+
+#banner {
+    background-image: url('fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Cubrir todo el tamaño del contenedor */
+    background-position: center; /* Centrar la imagen */
+    height: 50vh; /* 100% de la altura de la ventana gráfica (viewport) */
+    display: flex;
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    align-items: center; /* Centrar el contenido verticalmente */
+    color: black; /* Color del texto en el banner */
+    font-size: 2em; /* Tamaño del texto */
+    font-family: 'Times New Roman', Times, serif;
+}
