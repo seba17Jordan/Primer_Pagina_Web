@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #D6EAF8;
 }
 
 header {
-    background-color: #333;
+    background-color: black;
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -43,7 +43,7 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: black;
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -88,11 +88,13 @@ footer {
 .derecha { /*para alinear texto a la derecha */
     text-align: center;
     padding-left: 50%;
+    background-color: bisque;
 }
 
 .izquierda { /*para alinear texto a la izquierda */
     text-align: center;
     padding-right: 50%;
+    background-color: bisque;
     
 }
 
@@ -109,14 +111,19 @@ footer {
 }
 
 #banner {
-    background-image: url('fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-image: url('fondoMinimalista.jpg'); /* Ruta de la imagen de fondo */
     background-size: cover; /* Cubrir todo el tamaño del contenedor */
     background-position: center; /* Centrar la imagen */
-    height: 50vh; /* 100% de la altura de la ventana gráfica (viewport) */
+    height: 70vh; /* 100% de la altura de la ventana gráfica (viewport) */
     display: flex;
+    flex-direction: column; /* Sirve por si quiero agregar más texto al banner */
     justify-content: center; /* Centrar el contenido horizontalmente */
     align-items: center; /* Centrar el contenido verticalmente */
     color: black; /* Color del texto en el banner */
-    font-size: 2em; /* Tamaño del texto */
+    font-size: 300%; /* Tamaño del texto */
     font-family: 'Times New Roman', Times, serif;
+}
+
+#banner h1, #banner h3 {
+    margin: 0; /* Elimina el margen predeterminado que podría tener h1 y h3 */
 }
