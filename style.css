@@ -108,6 +108,18 @@ footer {
     background-color: #bab7b1;
 }
 
+.horizontal{
+    padding-top: 75px;
+    display: flex;
+    flex-direction: row; /* Organiza los elementos en una fila */
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-left: 75px;
+    background-color: #bab7b1;
+    color: white;
+    line-height: 40px;
+}
+
 .centro { /*para alinear texto al centro */
     margin: 0 auto; /* Centra el contenido del div horizontalmente */
     max-width: 600px; /* O ajusta el ancho máximo según tus necesidades */
@@ -119,6 +131,7 @@ footer {
     margin: 0 auto; /* Centra el contenido del div horizontalmente */
     max-width: 1000px; /* O ajusta el ancho máximo según tus necesidades */
     text-align: center;
+    font-size: 100%;
 }
 
 #banner {
